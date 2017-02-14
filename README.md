@@ -1,6 +1,8 @@
 # index_visual
 MS SQL Server - TSQL Index Visualizer
 
+More at [www.drewsk.tech](http://www.drewsk.tech/2017/02/14/sp_index_visual-a-tabular-visualization-of-a-tables-columns-and-if-they-are-indexed/).
+
 ## File Options ##
 
 Use [index_visual.sql](https://github.com/dzsquared/index_visual/blob/master/index_visual.sql) to quickly run against a table on your database to determine which columns are used and/or included with indicies on a table.
