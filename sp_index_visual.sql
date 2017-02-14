@@ -25,7 +25,7 @@ BEGIN
 	(
 	select 
 	ind.name as indexname, 
-	tcol.name as columnname,
+	tcol.name as ['+@INQTABLE+' Columns],
 	case when ic.is_included_column = 0 then 
 			case when ind.type = 1 then ''C'' else ''X'' end
 		else ''i'' end as columnused
